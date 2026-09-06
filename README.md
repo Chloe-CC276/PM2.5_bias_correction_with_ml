@@ -1,3 +1,6 @@
+# PM2.5_bias_correction_with_ml
+Data and research code for the study on PM2.5 bias correction based on machine learning and spatial extrapolation
+
 # UK PM2.5 bias-correction workflow
 
 Code for MUSICAv0 PM2.5 bias correction against AURN, from data preparation through adaptive ensembles. Shared inputs live in `Data/`. Derived tables and splits are reused by every later step; do not recreate them.
@@ -22,6 +25,8 @@ Place the fused MUSICA–AURN–emission table here:
 ```
 Data/MUSICA_allvariables_CAMSAIR_CAMSv51_QFED_vsl.parquet
 ```
+
+This parquet is stored with Git LFS (about 355 MB). Clone with Git LFS installed, or run `git lfs pull` afterwards if you only see a small pointer file.
 
 Preprocessing writes the modelling table used downstream:
 
