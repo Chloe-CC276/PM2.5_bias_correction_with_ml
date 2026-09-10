@@ -1,1 +1,2 @@
 *.parquet filter=lfs diff=lfs merge=lfs -text
+Data/MUSICA_allvariables_CAMSAIR_CAMSv51_QFED_vsl.csv filter=lfs diff=lfs merge=lfs -text
