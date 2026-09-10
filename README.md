@@ -24,9 +24,12 @@ Place the fused MUSICA–AURN–emission table here:
 
 ```
 Data/MUSICA_allvariables_CAMSAIR_CAMSv51_QFED_vsl.parquet
+    /MUSICA_allvariables_CAMSAIR_CAMSv51_QFED_vsl.csv
 ```
 
 This parquet is stored with Git LFS (about 355 MB). Clone with Git LFS installed, or run `git lfs pull` afterwards if you only see a small pointer file.
+
+The csv have been cleaned with null value and included geo information, which can be used for data preprocessing directly.
 
 Preprocessing writes the modelling table used downstream:
 
